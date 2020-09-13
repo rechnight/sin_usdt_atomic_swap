@@ -1,0 +1,25 @@
+{
+  "defaultWallet": "wallet.json",
+  "password": {
+    "AM82aCCE1NyE7cmpwpRzbcuvr3ndXHCq8Q": "password"
+  },
+  "deployConfig": {
+    "name": "SIN_USDT Atomic Swap",
+    "version": "1.0.0",
+    "author": "singames",
+    "email": "info@singames.com",
+    "desc": "Smart contract for SIN_USDT Atomic Swap",
+    "needStorage": true,
+    "payer": "AM82aCCE1NyE7cmpwpRzbcuvr3ndXHCq8Q",
+    "gasPrice": 2500,
+    "gasLimit": 20800000
+  },
+  "invokeConfig": {
+    "abi": "AtomicSwapExchange_abi.json",
+    "defaultPayer": "AM82aCCE1NyE7cmpwpRzbcuvr3ndXHCq8Q",
+    "gasPrice": 2500,
+    "gasLimit": 20000,
+    "sleepTime": 6,
+    "functions": []
+  }
+}
